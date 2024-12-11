@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "No build required, serving static files"
+artifacts:
+  baseDirectory: .
+  files:
+    - index.html  # El archivo que se va a desplegar
